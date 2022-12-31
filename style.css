@@ -1,0 +1,74 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.page-container {
+    background-color: #5372F0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ayah-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 35px 30px 15px;
+    width: 600px;
+}
+
+.ayah-container .top-content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.ayah-container .top-content .title {
+    align-self: center;
+    font-size: 40px;
+}
+
+.ayah-container .top-content .ayah {
+    text-align: center;
+    font-size: 23px;
+    padding: 40px 0 20px;
+
+}
+
+.ayah-container .top-content .surah {
+    align-self: flex-end;
+    font-size: 20px;
+}
+
+
+.ayah-container .bottom-content {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ayah-container .bottom-content .copy-img-container {
+    width: fit-content;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.ayah-container .bottom-content .copy-img-container .copy-img {
+    width: 50px;
+}
+
+.ayah-container .bottom-content .next-ayah-btn {
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 35px;
+    cursor: pointer;
+    border: 0;
+    background-color: #5372F0;
+    color: white;
+    font-weight: bold;
+    align-self: flex-end;
+}
